@@ -2,27 +2,27 @@
 <LanguageData>
 
     <OpportunitySite_ItemStash.questNameRules.rulesStrings> <!-- TODO -->
-        <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
-        <li>questName->[stash] of [treasure]</li>
-        <li>stash->Stash</li>
-        <li>stash->Cache</li>
-        <li>stash->Collection</li>
-        <li>stash->Shack</li>
-        <li>treasure->Treasure</li>
-        <li>treasure->Valuables</li>
-        <li>treasure->Fortune</li>
-        <li>treasure->Goodies</li>
-        <li>treasure->Supplies</li>
+        <li>questName(priority=1)->[asker_nameDef]の[treasure]の[stash]</li>
+        <li>questName->[treasure]の[stash]</li>
+        <li>stash->へそくり</li>
+        <li>stash->現金</li>
+        <li>stash->蒐集品</li>
+        <li>stash->小屋</li>
+        <li>treasure->宝物</li>
+        <li>treasure->貴重品</li>
+        <li>treasure->財産</li>
+        <li>treasure->商品</li>
+        <li>treasure->物資</li>
     </OpportunitySite_ItemStash.questNameRules.rulesStrings>
 
     <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings> <!-- TODO -->
         <!-- No asker -->
-        <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+        <li>questDescription(askerIsNull==true)->[map_definite]からそう遠くない場所にある,[itemStashContentsValue]の価値のあるアイテムのある蒐集品についてのメッセージを傍受しました.蒐集品には以下のものがあります:\n\n[itemStashContents]\n\n[allSitePartsDescriptionsExceptFirst]というように思われます。</li>
 
         <!-- Faction leader asker -->
-        <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+        <li>questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]である[asker_label]は,そう遠くない場所にある,[itemStashContentsValue]の価値のあるアイテムの蒐集品についての情報を知らせてきました.蒐集品には以下のものがあります:\n\n[itemStashContents]\n\n[asker_label]曰く、[allSitePartsDescriptionsExceptFirst]</li>
     </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
 
-	<OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quest expired: [resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
-	<OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+	<OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>クエストが期限切れ: [resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+	<OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>傍受した通信が示している隠しアイテムが他の誰かに奪われました.クエスト[resolvedQuestName]は期限切れになりました.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
 </LanguageData>

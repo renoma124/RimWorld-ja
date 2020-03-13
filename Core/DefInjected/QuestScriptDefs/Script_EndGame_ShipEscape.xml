@@ -2,14 +2,14 @@
 <LanguageData>
 
     <EndGame_ShipEscape.questNameRules.rulesStrings> <!-- TODO -->
-        <li>questName->Ship to the Stars</li>
+        <li>questName->星々への船</li>
     </EndGame_ShipEscape.questNameRules.rulesStrings>
     
     <EndGame_ShipEscape.questDescriptionRules.rulesStrings> <!-- TODO -->
-        <li>questDescription->A friendly AI from your past named &lt;Name&gt;Charlon Whitestone&lt;/Name&gt; has sent you a message!
-\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.
-\nThe starship is in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes. It will be a long, difficult series of battles.
-\nIf you can get the ship off the ground, &lt;Name&gt;Charlon&lt;/Name&gt; will take you off this rimworld, to the stars.</li>
+        <li>questDescription->かつてあなたが名付けた&lt;Name&gt;Charlon Whitestone&lt;/Name&gt;という友好的なAIが,メッセージを送ってきています!
+\n彼はこの星に隠された宇宙船があることを明かし,そのワールド座標を送信しています.He reveals that he has a starship hidden on this planet, and sends you its world coordinates.
+\nその宇宙船は深度休止状態です.到着した際には起動し,起動シーケンスが完了するまで宇宙船を盗もうとする襲撃者たちから防衛をしなければなりません.防衛は長い間続き,困難な戦いの連続になるでしょう.
+\n宇宙船の離陸に成功できれば, &lt;Name&gt;Charlon&lt;/Name&gt;により,この辺境の地から星々へと飛び立つでしょう.</li>
     </EndGame_ShipEscape.questDescriptionRules.rulesStrings>
 
 </LanguageData>
