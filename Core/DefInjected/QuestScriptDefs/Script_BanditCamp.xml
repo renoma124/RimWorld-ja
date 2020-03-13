@@ -2,28 +2,26 @@
 <LanguageData>
 
     <OpportunitySite_BanditCamp.questNameRules.rulesStrings> <!-- TODO -->
-        <li>questName->[asker_nameDef]'s Camp Bounty</li>
-        <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
-        <li>questName->The Bandit Camp</li>
-        <li>questName->The Raider Camp</li>
-        <li>questName->Destroy the Camp</li>
-        <li>questName->Helping [asker_nameDef]</li>
+        <li>questName->[asker_nameDef]の野営地の報奨金</li>
+        <li>questName->[enemyFaction_pawnsPlural]の野営地</li>
+        <li>questName->悪党の野営地</li>
+        <li>questName->襲撃者の野営地</li>
+        <li>questName->野営地の破壊</li>
+        <li>questName->[asker_nameDef]の支援</li>
     </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
 
     <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings> <!-- TODO -->
-        <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].
-\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].
-\nIf we succeed, [allRewardsDescriptions]</li>
+        <li>[asker_faction_name]の[asker_faction_leaderTitle]である[asker_nameFull]がメッセージを送ってきています.どうやら,近くに野営地を構えた[siteFaction_pawnsPlural]がキャラバンを襲撃しているようです.野営地は[siteFaction_name]によって管理されています.\n[asker_nameDef]はその野営地を破壊、つまり全ての敵とタレットの排除を求めています. [asker_label]は[sitePart0_description]と言っています.\nもし成功すれば,[allRewardsDescriptions]</li>
     </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
 
-    <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Quest expired: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef> 
-	<OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired.</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
-	<OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>Quest failed: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
-	<OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>The bandit camp has packed up and moved on.</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
-	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>Payment arrived</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>
-	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>
+    <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>クエストが期限切れ: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef> 
+	<OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>悪党がキャラバンの荷物をまとめ、野営地を移動しました.クエスト[resolvedQuestName]は期限が切れました.</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+	<OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>クエスト失敗: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+	<OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>悪党がキャラバンの荷物をまとめ、野営地を移動しました.</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>支払が到着</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>
+	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>悪党の野営地を制圧しました!\n\n[asker_faction_name]からの支払いが到着しました.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>
 	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>
-	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
+	<OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>クエスト[resolvedQuestName]の勝利に入植者たちが参加しました. [asker_definite]は誰が[royalFavorReward_amount]の[asker_faction_royalFavorLabel]というこの功労に対する贈り物を受けるべきか知りたがっています.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
 
 
 

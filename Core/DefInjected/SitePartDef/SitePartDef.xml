@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<BanditCamp.label>bandit camp</BanditCamp.label> <!-- TODO -->
-	<BanditCamp.description>A bandit camp.</BanditCamp.description> <!-- TODO -->
-	<BanditCamp.approachingReportString>Attacking {0}</BanditCamp.approachingReportString> <!-- TODO -->
-	<BanditCamp.approachOrderString>Attack {0}</BanditCamp.approachOrderString> <!-- TODO -->
-	<BanditCamp.arrivedLetter>There is an enemy outpost in this area.</BanditCamp.arrivedLetter> <!-- TODO -->
+	<BanditCamp.label>悪党の野営地</BanditCamp.label> <!-- TODO -->
+	<BanditCamp.description>一か所の悪党の野営地.</BanditCamp.description> <!-- TODO -->
+	<BanditCamp.approachingReportString>{0}を攻撃中</BanditCamp.approachingReportString> <!-- TODO -->
+	<BanditCamp.approachOrderString>{0}を攻撃</BanditCamp.approachOrderString> <!-- TODO -->
+	<BanditCamp.arrivedLetter>敵の前哨基地がこのエリアにあります.</BanditCamp.arrivedLetter> <!-- TODO -->
 
 	<Manhunters.label>人狩りの群れ</Manhunters.label>
 	<Manhunters.description>人を狩ろうとしている動物の群れ</Manhunters.description>
